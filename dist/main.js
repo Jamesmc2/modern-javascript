@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const dayjs = __webpack_require__(/*! dayjs */ \"./node_modules/dayjs/dayjs.min.js\");\nconsole.log(\"Hello from index.js\");\nconsole.log(\n  dayjs()\n    .startOf(\"month\")\n    .add(9, \"day\")\n    .set(\"year\", 1998)\n    .set(\"month\", 5)\n    .set(\"hour\", 11)\n    .set(\"minute\", 59)\n    .format(\"YYYY-MM-DD HH:mm:ss\")\n);\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("const dayjs = __webpack_require__(/*! dayjs */ \"./node_modules/dayjs/dayjs.min.js\");\n\nconsole.log(\"Hello from index.js\");\nconsole.log(\n  dayjs()\n    .startOf(\"month\")\n    .add(9, \"day\")\n    .set(\"year\", 1998)\n    .set(\"month\", 5)\n    .set(\"hour\", 11)\n    .set(\"minute\", 59)\n    .format(\"YYYY-MM-DD HH:mm:ss\")\n);\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
