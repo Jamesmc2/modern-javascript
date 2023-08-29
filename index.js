@@ -12,7 +12,7 @@ console.log(
     .format("YYYY-MM-DD HH:mm:ss")
 );
 
-var nums = [1, 2, 4, 5, 6, 7, 8, 5, 6, 5];
+var nums = [1, 2, 4, 5, 6, 7, 8, 5, 6, 5, 5, 5, 5, 5, 5, 5, 5];
 var fives = [];
 nums.forEach((v) => {
   if (v % 5 === 0) {
@@ -21,6 +21,6 @@ nums.forEach((v) => {
 });
 console.log(fives);
 
-var name = "Bob",
+var name = "John",
   time = "today";
-console.log(`Hello ${name}, how are you ${time}?`);
+console.log(`Hello ${name}, how are you ${time}??????????????`);
